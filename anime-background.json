@@ -1,0 +1,52 @@
+{
+    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_refiner": "1.5-luster-mix.safetensors",
+    "default_refiner_switch": 0.4865,
+    "default_loras": [
+        [
+            true,
+            "sd_xl_offset_example-lora_1.0.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "None",
+            1
+        ],
+        [
+            true,
+            "None",
+            1
+        ],
+        [
+            true,
+            "None",
+            1
+        ],
+        [
+            true,
+            "None",
+            1
+        ],
+        [
+            true,
+            "None",
+            1
+        ]
+    ],
+    "default_cfg_scale": 4.78,
+    "default_sample_sharpness": 2,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt_negative": "((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), out of frame, extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), out of frame, extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))) , ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), out of frame, extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), (1man:1.2), (1girl:1.2), (human:1.1), (humanoid:1.1), (character:1.1), man, woman, kids",
+    "default_styles": [
+        "SAI Anime",
+        "MRE Anime"
+    ],
+    "default_aspect_ratio": "1344*768",
+    "default_clip_skip": 2,
+    "default_vae": "Default (model)",
+    "default_overwrite_step": 30,
+    "default_max_lora_number": 5
+}
